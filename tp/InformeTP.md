@@ -1,5 +1,6 @@
 **UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS**
 
+![Logo UPC](https://drive.google.com/file/d/1P-KaXK484_tgqKM5nXM88nyuNMX3hqAJ/view?usp=sharing)
 
 **TÓPICOS EN CIENCIAS DE LA COMPUTACIÓN**
 
