@@ -1,6 +1,6 @@
 **UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS**
 
-![Logo UPC](https://drive.google.com/file/d/1P-KaXK484_tgqKM5nXM88nyuNMX3hqAJ/view?usp=sharing)
+![Logo UPC](imgs/logoUPC.svg)
 
 **TÓPICOS EN CIENCIAS DE LA COMPUTACIÓN**
 
@@ -151,6 +151,7 @@ Después de buscar todas las soluciones posibles, se calculó el uso de aulas en
 ## **Definición del Problema y Variables**
 Tomamos en cuenta las variables Cursos, Aulas, Horarios y Días.
 
+![problemas y variables](imgs/desarrollo1.svg)
 
 ## **Definición de Restricciones**
 Se definen las siguientes restricciones:
@@ -158,6 +159,8 @@ Se definen las siguientes restricciones:
 - Un curso no puede ser asignado a un aula que tenga menos capacidad que el número de estudiantes inscritos en el curso.
 - Un aula no puede ser utilizada por más de un curso al mismo tiempo en el mismo día.
 - Se busca que los cursos se asignen de manera que se utilicen el máximo número posible de aulas diferentes.
+
+![Restricciones](imgs/desarrollo2.svg)
 
 ## **Búsqueda de Soluciones y Selección de la Mejor Opción**
 Búsqueda de soluciones:
@@ -170,6 +173,7 @@ Selección de la mejor opción:
 - Se selecciona la solución que maximiza el uso de diferentes aulas para mejorar la distribución de los cursos y evitar la concentración en un mismo espacio.
 - La solución que utiliza el mayor número de aulas distintas se considera la mejor opción para evitar sobrecargas en aulas específicas.
 
+![Soluciones y Mejor Opción](imgs/desarrollo3.svg)
 
 # **Conclusión**
 El diseño de solución propuesto garantiza la asignación eficiente de horarios mediante la utilización de técnicas de programación con restricciones. La implementación en Python facilita la validación y optimización de las soluciones, asegurando un modelo flexible y robusto capaz de manejar las complejidades típicas del entorno educativo. Este enfoque no solo resuelve la problemática inicial, sino que también proporciona una herramienta adaptable para futuras necesidades y cambios.
